@@ -6,7 +6,8 @@ namespace CSharpFundamentals
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Calculator newOne = new Calculator();
+            Console.WriteLine(newOne.Add(5, 6));
         }
     }
 }

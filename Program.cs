@@ -6,8 +6,8 @@ namespace CSharpFundamentals
     {
         static void Main(string[] args)
         {
-            Calculator newOne = new Calculator();
-            Console.WriteLine(newOne.Add(5, 6));
+            SquareRootFinder oneGross = new SquareRootFinder();
+            Console.WriteLine(oneGross.SquareRoot(144));
         }
     }
 }
